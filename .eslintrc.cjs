@@ -5,6 +5,7 @@ module.exports = {
     browser: true,
     es2020: true,
     node: true, // Agregamos "node" para reconocer el entorno Node.js
+    jest: true
   },
   extends: [
     'eslint:recommended',

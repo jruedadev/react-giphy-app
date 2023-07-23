@@ -1,6 +1,7 @@
 module.exports = {
   transform: {
-    '^.+\\.jsx?$': 'babel-jest'
+    '^.+\\.jsx?$': 'babel-jest',
+    "^.+\\.css$": "jest-transform-stub"
   },
   setupFiles: [
     './jest.setup.js'
